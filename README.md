@@ -1,4 +1,4 @@
-# Resume Parser API
+# Job Match AI
 
 A FastAPI-based service that scores resumes against job descriptions using LangChain, OpenAI embeddings, and LLM-based evaluation.
 
