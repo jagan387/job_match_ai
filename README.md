@@ -42,6 +42,11 @@ Scores a resume against a job description.
 - Multipart form data with two files:
   - `resume`: PDF or DOCX file
   - `job_description`: PDF or DOCX file
+  - Example: curl -X POST "http://localhost:8000/score" \
+  -H "accept: application/json" \
+  -H "Content-Type: multipart/form-data" \
+  -F "resume=@samples/sample_resume.pdf" \
+  -F "job_description=@samples/sample_job.pdf"
 
 **Response:**
 ```json
@@ -55,6 +60,8 @@ Scores a resume against a job description.
 
 ## Implementation Details
 
+- Uses multiple agents for performing various tasks both in sequence and in parallel. Built using langraph's multi-agentic workflow mechanism for orchestration
+- Improves the inference by using a feedback loop to enhance the results
 - Leverages LangChain's UnstructuredPDFLoader for PDF parsing
 - Implements OpenAI embeddings for semantic similarity
 - Uses ChatGPT for detailed resume evaluation
