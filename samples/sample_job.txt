@@ -1,0 +1,28 @@
+Senior Software Engineer Position
+
+About Us:
+We are a growing technology company seeking a talented Senior Software Engineer to join our development team.
+
+Required Skills and Experience:
+- 5+ years of experience in software development
+- Strong proficiency in Python and JavaScript
+- Experience with modern web frameworks (FastAPI, React, or similar)
+- Expertise in database design and management (SQL and NoSQL)
+- Familiarity with cloud platforms (AWS preferred)
+- Experience with containerization and microservices
+- Strong understanding of CI/CD practices
+
+Responsibilities:
+- Design and implement scalable microservices
+- Lead development teams and mentor junior developers
+- Optimize application performance and reliability
+- Collaborate with cross-functional teams
+- Participate in code reviews and technical planning
+
+Qualifications:
+- Bachelor's degree in Computer Science or related field
+- Proven track record of delivering complex software projects
+- Excellent problem-solving and communication skills
+
+Location: Remote / Hybrid
+Type: Full-time 
